@@ -1,0 +1,318 @@
+
+{
+    "header": {
+        "tagline": "Your Smart Farming Assistant",
+        "downloadReport": "Download Report"
+    },
+    "home": {
+        "title": "Welcome to CropCompass",
+        "subtitle": "Your AI-powered partner for intelligent farming. Get personalized recommendations for crop selection, irrigation schedules, pest detection, and more.",
+        "cta": "Go to Dashboard"
+    },
+    "dashboard": {
+        "title": "Your Farming Dashboard",
+        "cta": "Go to Dashboard"
+    },
+    "tabs": {
+        "cropSuggestions": "Crop Suggestions",
+        "irrigationPlan": "Irrigation Plan",
+        "yieldPrediction": "Yield Prediction",
+        "govtSchemes": "Govt. Schemes",
+        "dataInsights": "Farm Data Analytics",
+        "dashboard": "Dashboard",
+        "aiAssistant": "AI Assistant",
+        "pestDetection": "Pest Detection",
+        "marketPrice": "Market Prices",
+        "cropDistribution": "Crop Distribution",
+        "inventory": "Inventory"
+    },
+    "cropsuggestions": {
+        "description": "Get AI-driven crop recommendations based on your farm's conditions.",
+        "description_short": "Get AI-driven crop recommendations for your farm."
+    },
+    "irrigationplan": {
+        "description": "Generate a tailored irrigation schedule to optimize water usage.",
+        "description_short": "Optimize water usage with a tailored irrigation schedule."
+    },
+    "yieldprediction": {
+        "description": "Estimate your potential crop yield with our predictive analysis.",
+        "description_short": "Estimate your potential crop yield with predictive analysis."
+    },
+    "govtschemes": {
+        "description": "Find relevant government schemes for your farming needs.",
+        "description_short": "Find relevant government schemes for your needs."
+    },
+    "farmdataanalytics": {
+        "description": "Analyze your farm data to gain insights on yields, costs, and risks.",
+        "description_short": "Analyze your farm data for insights on yields and costs."
+    },
+    "pestdetection": {
+        "description": "Detect pests and diseases in your crops by uploading a photo.",
+        "description_short": "Detect crop pests and diseases by uploading a photo."
+    },
+    "marketprice": {
+        "description": "Get AI-powered market price estimates for your produce.",
+        "description_short": "Get AI price estimates for your produce."
+    },
+    "cropdistribution": {
+        "description": "Visualize the distribution of major crops grown across India.",
+        "description_short": "Visualize crop distribution data for India.",
+        "title": "Crop Distribution",
+        "chartTypeLabel": "Chart Type",
+        "graphTypePlaceholder": "Select a chart type",
+        "statePlaceholder": "Select a state (or All India)",
+        "barChart": "Bar Chart",
+        "pieChart": "Pie Chart",
+        "button": "Generate Graph",
+        "generating": "Generating..."
+    },
+    "inventory": {
+        "description": "Track your stock of fertilizers, pesticides, and other farm supplies.",
+        "description_short": "Track your stock of farm supplies.",
+        "title": "Inventory Management",
+        "addItem": "Add New Item",
+        "itemName": "Item Name",
+        "itemNamePlaceholder": "e.g., Urea Fertilizer",
+        "quantity": "Quantity",
+        "unit": "Unit",
+        "unitPlaceholder": "Select a unit",
+        "addItemButton": "Add Item",
+        "currentStock": "Current Stock",
+        "actions": "Actions",
+        "noItems": "No items in inventory. Add one above to get started.",
+        "logHistoryFor": "Log History for",
+        "date": "Date",
+        "action": "Action",
+        "quantityChange": "Quantity Change",
+        "notes": "Notes",
+        "addStock": "Add Stock",
+        "useStock": "Use Stock",
+        "notesPlaceholder": "Optional notes...",
+        "updateQuantity": "Update Quantity",
+        "areYouSure": "Are you sure?",
+        "deleteWarning": "This action cannot be undone. This will permanently delete the item from your inventory.",
+        "cancel": "Cancel",
+        "confirmDelete": "Yes, delete it",
+        "toasts": {
+            "itemAdded": "Item Added",
+            "quantityUpdated": "Quantity Updated",
+            "itemDeleted": "Item Deleted",
+            "invalidQuantity": "Invalid Quantity",
+            "notEnoughStock": "Not enough stock to perform this action."
+        }
+    },
+    "aiassistant": {
+        "description": "Ask our AI assistant anything about farming and agriculture."
+    },
+    "cropSuggestion": {
+        "title": "Soil & Crop Recommendations",
+        "description": "Enter your farm's details to get personalized crop recommendations from our AI.",
+        "stateLabel": "State",
+        "statePlaceholder": "Select a state",
+        "districtLabel": "District",
+        "districtPlaceholder": "Select a district",
+        "locationLabel": "Location (e.g., District, State)",
+        "locationPlaceholder": "E.g., Nashik, Maharashtra",
+        "soilTypeLabel": "Soil Type",
+        "soilTypePlaceholder": "E.g., Black Clay, Red Loam",
+        "resourcesLabel": "Available Resources",
+        "resourcesPlaceholder": "Describe your water access, budget, machinery, etc.",
+        "button": "Get Recommendations",
+        "analyzing": "Analyzing...",
+        "results": {
+            "recommendedCrops": "Recommended Crops",
+            "recommendedCropsDesc": "Based on your input, here are the most suitable crops.",
+            "aiReasoning": "AI Reasoning",
+            "aiReasoningDesc": "Here's why these crops were recommended.",
+            "fertilizerTitle": "Fertilizer Recommendations",
+            "fertilizerDesc": "Suitable fertilizers for the suggested crops."
+        }
+    },
+    "irrigationPlan": {
+        "title": "Smart Irrigation Calendar",
+        "description": "Generate a tailored irrigation schedule to optimize water usage and crop health.",
+        "cropTypeLabel": "Crop Type",
+        "cropTypePlaceholder": "E.g., Wheat, Sugarcane",
+        "soilTypeLabel": "Soil Type",
+        "soilTypePlaceholder": "Select a soil type",
+        "locationLabel": "Location (e.g., District, State)",
+        "locationPlaceholder": "E.g., Nashik, Maharashtra",
+        "waterAccessLabel": "Water Access",
+        "waterAccessPlaceholder": "E.g., Borewell, Canal, Rain-fed",
+        "stateLabel": "State",
+        "statePlaceholder": "Select a state",
+        "districtLabel": "District",
+        "districtPlaceholder": "Select a district",
+        "button": "Get Irrigation Plan",
+        "calculating": "Calculating...",
+        "results": {
+            "schedule": "Recommended Irrigation Schedule",
+            "scheduleDesc": "Select a day to see the watering task.",
+            "conservation": "Water Conservation Tips",
+            "conservationDesc": "Techniques to help you save water.",
+            "legend": "Calendar Legend",
+            "wateringDay": "Watering Day",
+            "noTask": "No watering task for this day.",
+            "upcomingWatering": "Upcoming Watering Days",
+            "upcomingWateringDay": "Upcoming Watering Day"
+        }
+    },
+    "yieldPrediction": {
+        "title": "Yield Prediction",
+        "description": "Estimate your potential crop yield based on farming conditions.",
+        "cropTypeLabel": "Crop Type",
+        "cropTypePlaceholder": "E.g., Rice, Cotton",
+        "soilTypeLabel": "Soil Type",
+        "soilTypePlaceholder": "E.g., Alluvial, Black",
+        "seasonLabel": "Season",
+        "seasonPlaceholder": "Select a cropping season",
+        "kharif": "Kharif (Monsoon)",
+        "rabi": "Rabi (Winter)",
+        "zaid": "Zaid (Summer)",
+        "locationLabel": "Location (e.g., District, State)",
+        "locationPlaceholder": "E.g., Guntur, Andhra Pradesh",
+        "button": "Predict Yield",
+        "predicting": "Predicting...",
+        "results": {
+            "predictedYield": "Predicted Yield",
+            "weatherReport": "6-Month Weather Forecast",
+            "influencingFactors": "Influencing Factors",
+            "recommendations": "Recommendations for Improvement"
+        }
+    },
+    "govtSchemes": {
+        "title": "Applicable Government Schemes",
+        "description": "Enter your details to find relevant central and state government schemes.",
+        "locationLabel": "Location (e.g., District, State)",
+        "locationPlaceholder": "E.g., Pune, Maharashtra",
+        "categoryLabel": "Farmer Category",
+        "categoryPlaceholder": "Select your category",
+        "smallFarmer": "Small Farmer (1-2 hectares)",
+        "marginalFarmer": "Marginal Farmer (less than 1 hectare)",
+        "largeFarmer": "Large Farmer (more than 2 hectares)",
+        "annualIncomeLabel": "Annual Income (INR)",
+        "annualIncomePlaceholder": "e.g., 1,50,000",
+        "button": "Find Schemes",
+        "searching": "Searching...",
+        "results": {
+            "eligibility": "Eligibility",
+            "benefits": "Benefits",
+            "documents": "Documents Required",
+            "application": "How to Apply",
+            "noSchemesFound": "No specific {{type}} schemes found for the provided details. Try broadening your search.",
+            "centralSchemes": "Central Schemes",
+            "stateSchemes": "State Schemes",
+            "applyLink": "More Info / Apply"
+        }
+    },
+    "aiInsights": {
+        "title": "AI Insights from Your Data",
+        "description": "Upload your farm data (CSV, XLS, PDF) to get personalized insights on yields, costs, and risks.",
+        "dropzone": "Drag and drop your file here or click to upload.",
+        "chooseFile": "Choose File",
+        "button": "Analyze Data",
+        "analyzing": "Analyzing...",
+        "results": {
+            "summaryTitle": "Summary",
+            "insightsTitle": "Key Insights",
+            "recommendationsTitle": "Actionable Recommendations"
+        }
+    },
+    "pestDetection": {
+        "title": "Pest & Disease Detection",
+        "description": "Upload a photo of a plant to detect diseases or pests and get treatment suggestions.",
+        "dropzone": "Click or drag & drop a plant photo here.",
+        "locationPlaceholder": "Enter your location (e.g., City, District)",
+        "descriptionPlaceholder": "Optionally, describe any observed symptoms or issues...",
+        "button": "Diagnose Plant",
+        "analyzing": "Diagnosing...",
+        "results": {
+            "plantIdentification": "Plant Identification",
+            "commonName": "Common Name",
+            "latinName": "Latin Name",
+            "diagnosis": "Diagnosis",
+            "healthStatus": "Health Status",
+            "healthy": "Healthy",
+            "unhealthy": "Unhealthy",
+            "detectedIssue": "Detected Issue",
+            "confidence": "Confidence",
+            "symptoms": "Symptoms",
+            "treatment": "Treatment Suggestions",
+            "organicMethods": "Organic Methods",
+            "chemicalMethods": "Chemical Methods",
+            "prevention": "Prevention Tips",
+            "noPlant": "Plant Not Detected",
+            "noPlantDesc": "The AI could not confirm that the uploaded image contains a plant. Please try another photo.",
+            "findStores": "Find Nearby Stores",
+            "buyOnline": "Buy Online"
+        }
+    },
+    "marketPrice": {
+        "title": "Market Price Checker",
+        "description": "Get AI-powered price estimates for agricultural products based on your location.",
+        "productNameLabel": "Product Name",
+        "productNamePlaceholder": "E.g., Onion, Tomato",
+        "locationLabel": "Market Location",
+        "locationPlaceholder": "E.g., Nashik, Pune",
+        "button": "Get Price",
+        "gettingPrice": "Getting Price...",
+        "results": {
+            "averagePrice": "Average Price",
+            "marketTrends": "Market Trends",
+            "priceFactors": "Price Influencing Factors",
+            "findStores": "Find Nearby Stores"
+        }
+    },
+    "chatAssistant": {
+        "title": "AI Farming Assistant",
+        "description": "Ask me anything about farming!",
+        "placeholder": "Type your question here..."
+    },
+    "footer": {
+        "copyright": "CropCompass. Powered by AI for a greener tomorrow."
+    },
+    "toasts": {
+        "error": "Error",
+        "cropSuggestionError": "Failed to get crop suggestions. Please try again.",
+        "irrigationPlanError": "Failed to get irrigation schedule. Please try again.",
+        "yieldPredictionError": "Failed to predict yield. Please try again.",
+        "govtSchemesError": "Failed to find government schemes. Please try again.",
+        "aiInsightsError": "Failed to analyze data. Please try again.",
+        "pestDetectionError": "Failed to diagnose plant. Please check the image and try again.",
+        "cropDistributionError": "Failed to get crop distribution data. Please try again.",
+        "fileSelectError": "Please select a file to analyze.",
+        "locationRequiredError": "Please enter your location.",
+        "chatAssistantError": "Failed to get a response from the assistant. Please try again.",
+        "marketPriceError": "Failed to get market price. Please try again."
+    },
+    "indianStates": {
+        "Andhra Pradesh": ["Anantapur", "Chittoor", "East Godavari", "Guntur", "Kadapa (YSR)", "Krishna", "Kurnool", "Nellore", "Prakasam", "Srikakulam", "Visakhapatnam", "Vizianagaram", "West Godavari"],
+        "Arunachal Pradesh": ["Anjaw", "Changlang", "Dibang Valley", "East Kameng", "East Siang", "Kamle", "Kra Daadi", "Kurung Kumey", "Lepa Rada", "Lohit", "Longding", "Lower Dibang Valley", "Lower Siang", "Lower Subansiri", "Namsai", "Pakke Kessang", "Papum Pare", "Shi Yomi", "Siang", "Tawang", "Tirap", "Upper Siang", "Upper Subansiri", "West Kameng", "West Siang"],
+        "Assam": ["Baksa", "Barpeta", "Biswanath", "Bongaigaon", "Cachar", "Charaideo", "Chirang", "Darrang", "Dhemaji", "Dhubri", "Dibrugarh", "Dima Hasao", "Goalpara", "Golaghat", "Hailakandi", "Hojai", "Jorhat", "Kamrup", "Kamrup Metropolitan", "Karbi Anglong", "Karimganj", "Kokrajhar", "Lakhimpur", "Majuli", "Morigaon", "Nagaon", "Nalbari", "Sivasagar", "Sonitpur", "South Salmara-Mankachar", "Tinsukia", "Udalguri", "West Karbi Anglong"],
+        "Bihar": ["Araria", "Arwal", "Aurangabad", "Banka", "Begusarai", "Bhagalpur", "Bhojpur", "Buxar", "Darbhanga", "East Champaran", "Gaya", "Gopalganj", "Jamui", "Jehanabad", "Kaimur", "Katihar", "Khagaria", "Kishanganj", "Lakhisarai", "Madhepura", "Madhubani", "Munger", "Muzaffarpur", "Nalanda", "Nawada", "Patna", "Purnia", "Rohtas", "Saharsa", "Samastipur", "Saran", "Sheikhpura", "Sheohar", "Sitamarhi", "Siwan", "Supaul", "Vaishali", "West Champaran"],
+        "Chhattisgarh": ["Balod", "Baloda Bazar", "Balrampur", "Bastar", "Bemetara", "Bijapur", "Bilaspur", "Dantewada", "Dhamtari", "Durg", "Gariaband", "Gaurela-Pendra-Marwahi", "Janjgir-Champa", "Jashpur", "Kabirdham (Kawardha)", "Kanker (North Bastar)", "Kondagaon", "Korba", "Koriya", "Mahasamund", "Mungeli", "Narayanpur", "Raigarh", "Raipur", "Rajnandgaon", "Sukma", "Surajpur", "Surguja"],
+        "Goa": ["North Goa", "South Goa"],
+        "Gujarat": ["Ahmedabad", "Amreli", "Anand", "Aravalli", "Banaskantha", "Bharuch", "Bhavnagar", "Botad", "Chhota Udaipur", "Dahod", "Dang", "Devbhoomi Dwarka", "Gandhinagar", "Gir Somnath", "Jamnagar", "Junagadh", "Kheda", "Kutch", "Mahisagar", "Mehsana", "Morbi", "Narmada", "Navsari", "Panchmahal", "Patan", "Porbandar", "Rajkot", "Sabarkantha", "Surat", "Surendranagar", "Tapi", "Vadodara", "Valsad"],
+        "Haryana": ["Ambala", "Bhiwani", "Charkhi Dadri", "Faridabad", "Fatehabad", "Gurugram", "Hisar", "Jhajjar", "Jind", "Kaithal", "Karnal", "Kurukshetra", "Mahendragarh", "Nuh", "Palwal", "Panchkula", "Panipat", "Rewari", "Rohtak", "Sirsa", "Sonipat", "Yamunanagar"],
+        "Himachal Pradesh": ["Bilaspur", "Chamba", "Hamirpur", "Kangra", "Kinnaur", "Kullu", "Lahaul & Spiti", "Mandi", "Shimla", "Sirmaur", "Solan", "Una"],
+        "Jharkhand": ["Bokaro", "Chatra", "Deoghar", "Dhanbad", "Dumka", "East Singhbhum", "Garhwa", "Giridih", "Godda", "Gumla", "Hazaribagh", "Jamtara", "Khunti", "Koderma", "Latehar", "Lohardaga", "Pakur", "Palamu", "Ramgarh", "Ranchi", "Sahebganj", "Seraikela Kharsawan", "Simdega", "West Singhbhum"],
+        "Karnataka": ["Bagalkot", "Ballari (Bellary)", "Belagavi (Belgaum)", "Bengaluru Rural", "Bengaluru Urban", "Bidar", "Chamarajanagar", "Chikkaballapur", "Chikkamagaluru", "Chitradurga", "Dakshina Kannada", "Davanagere", "Dharwad", "Gadag", "Hassan", "Haveri", "Kalaburagi (Gulbarga)", "Kodagu", "Kolar", "Koppal", "Mandya", "Mysuru (Mysore)", "Raichur", "Ramanagara", "Shivamogga (Shimoga)", "Tumakuru (Tumkur)", "Udupi", "Uttara Kannada (Karwar)", "Vijayapura (Bijapur)", "Yadgir"],
+        "Kerala": ["Alappuzha", "Ernakulam", "Idukki", "Kannur", "Kasaragod", "Kollam", "Kottayam", "Kozhikode", "Malappuram", "Palakkad", "Pathanamthitta", "Thiruvananthapuram", "Thrissur", "Wayanad"],
+        "Madhya Pradesh": ["Agar Malwa", "Alirajpur", "Anuppur", "Ashoknagar", "Balaghat", "Barwani", "Betul", "Bhind", "Bhopal", "Burhanpur", "Chhatarpur", "Chhindwara", "Damoh", "Datia", "Dewas", "Dhar", "Dindori", "Guna", "Gwalior", "Harda", "Hoshangabad", "Indore", "Jabalpur", "Jhabua", "Katni", "Khandwa", "Khargone", "Mandla", "Mandsaur", "Morena", "Narsinghpur", "Neemuch", "Panna", "Raisen", "Rajgarh", "Ratlam", "Rewa", "Sagar", "Satna", "Sehore", "Seoni", "Shahdol", "Shajapur", "Sheopur", "Shivpuri", "Sidhi", "Singrauli", "Tikamgarh", "Ujjain", "Umaria", "Vidisha"],
+        "Maharashtra": ["Ahmednagar", "Akola", "Amravati", "Aurangabad", "Beed", "Bhandara", "Buldhana", "Chandrapur", "Dhule", "Gadchiroli", "Gondia", "Hingoli", "Jalgaon", "Jalna", "Kolhapur", "Latur", "Mumbai City", "Mumbai Suburban", "Nagpur", "Nanded", "Nandurbar", "Nashik", "Osmanabad", "Palghar", "Parbhani", "Pune", "Raigad", "Ratnagiri", "Sangli", "Satara", "Sindhudurg", "Solapur", "Thane", "Wardha", "Washim", "Yavatmal"],
+        "Manipur": ["Bishnupur", "Chandel", "Churachandpur", "Imphal East", "Imphal West", "Jiribam", "Kakching", "Kamjong", "Kangpokpi", "Noney", "Pherzawl", "Senapati", "Tamenglong", "Tengnoupal", "Thoubal", "Ukhrul"],
+        "Meghalaya": ["East Garo Hills", "East Jaintia Hills", "East Khasi Hills", "North Garo Hills", "Ri Bhoi", "South Garo Hills", "South West Garo Hills", "South West Khasi Hills", "West Garo Hills", "West Jaintia Hills", "West Khasi Hills"],
+        "Mizoram": ["Aizawl", "Champhai", "Hnahthial", "Khawzawl", "Kolasib", "Lawngtlai", "Lunglei", "Mamit", "Saiha", "Saitual", "Serchhip"],
+        "Nagaland": ["Dimapur", "Kiphire", "Kohima", "Longleng", "Mokokchung", "Mon", "Peren", "Phek", "Tuensang", "Wokha", "Zunheboto"],
+        "Odisha": ["Angul", "Balangir", "Balasore", "Bargarh", "Bhadrak", "Boudh", "Cuttack", "Deogarh", "Dhenkanal", "Gajapati", "Ganjam", "Jagatsinghpur", "Jajpur", "Jharsuguda", "Kalahandi", "Kandhamal", "Kendrapara", "Kendujhar (Keonjhar)", "Khordha", "Koraput", "Malkangiri", "Mayurbhanj", "Nabarangpur", "Nayagarh", "Nuapada", "Puri", "Rayagada", "Sambalpur", "Subarnapur (Sonepur)", "Sundargarh"],
+        "Punjab": ["Amritsar", "Barnala", "Bathinda", "Faridkot", "Fatehgarh Sahib", "Fazilka", "Ferozepur", "Gurdaspur", "Hoshiarpur", "Jalandhar", "Kapurthala", "Ludhiana", "Mansa", "Moga", "Pathankot", "Patiala", "Rupnagar", "Sahibzada Ajit Singh Nagar (Mohali)", "Sangrur", "Shahid Bhagat Singh Nagar (Nawanshahr)", "Sri Muktsar Sahib", "Tarn Taran"],
+        "Rajasthan": ["Ajmer", "Alwar", "Banswara", "Baran", "Barmer", "Bharatpur", "Bhilwara", "Bikaner", "Bundi", "Chittorgarh", "Churu", "Dausa", "Dholpur", "Dungarpur", "Hanumangarh", "Jaipur", "Jaisalmer", "Jalore", "Jhalawar", "Jhunjhunu", "Jodhpur", "Karauli", "Kota", "Nagaur", "Pali", "Pratapgarh", "Rajsamand", "Sawai Madhopur", "Sikar", "Sirohi", "Sri Ganganagar", "Tonk", "Udaipur"],
+        "Sikkim": ["East Sikkim", "North Sikkim", "South Sikkim", "West Sikkim"],
+        "Tamil Nadu": ["Ariyalur", "Chengalpattu", "Chennai", "Coimbatore", "Cuddalore", "Dharmapuri", "Dindigul", "Erode", "Kallakurichi", "Kanchipuram", "Kanyakumari", "Karur", "Krishnagiri", "Madurai", "Mayiladuthurai", "Nagapattinam", "Namakkal", "Nilgiris", "Perambalur", "Pudukkottai", "Ramanathapuram", "Ranipet", "Salem", "Sivaganga", "Tenkasi", "Thanjavur", "Theni", "Thoothukudi (Tuticorin)", "Tiruchirappalli", "Tirunelveli", "Tirupathur", "Tiruppur", "Tiruvallur", "Tiruvannamalai", "Tiruvarur", "Vellore", "Viluppuram", "Virudhunagar"],
+        "Telangana": ["Adilabad", "Bhadradri Kothagudem", "Hyderabad", "Jagtial", "Jangaon", "Jayashankar Bhupalpally", "Jogulamba Gadwal", "Kamareddy", "Karimnagar", "Khammam", "Komaram Bheem", "Mahabubabad", "Mahbubnagar", "Mancherial", "Medak", "Medchal–Malkajgiri", "Mulugu", "Nagarkurnool", "Nalgonda", "Narayanpet", "Nirmal", "Nizamabad", "Peddapalli", "Rajanna Sircilla", "Ranga Reddy", "Sangareddy", "Siddipet", "Suryapet", "Vikarabad", "Wanaparthy", "Warangal Rural", "Warangal Urban", "Yadadri Bhuvanagiri"],
+        "Tripura": ["Dhalai", "Gomati", "Khowai", "North Tripura", "Sepahijala", "South Tripura", "Unakoti", "West Tripura"],
+        "Uttar Pradesh": ["Agra", "Aligarh", "Ambedkar Nagar", "Amethi", "Amroha", "Auraiya", "Ayodhya", "Azamgarh", "Baghpat", "Bahraich", "Ballia", "Balrampur", "Banda", "Barabanki", "Bareilly", "Basti", "Bhadohi", "Bijnor", "Budaun", "Bulandshahr", "Chandauli", "Chitrakoot", "Deoria", "Etah", "Etawah", "Farrukhabad", "Fatehpur", "Firozabad", "Gautam Buddh Nagar", "Ghaziabad", "Ghazipur", "Gonda", "Gorakhpur", "Hamirpur", "Hapur", "Hardoi", "Hathras", "Jalaun", "Jaunpur", "Jhansi", "Kannauj", "Kanpur Dehat", "Kanpur Nagar", "Kasganj", "Kaushambi", "Kheri", "Kushinagar", "Lalitpur", "Lucknow", "Maharajganj", "Mahoba", "Mainpuri", "Mathura", "Mau", "Meerut", "Mirzapur", "Moradabad", "Muzaffarnagar", "Pilibhit", "Pratapgarh", "Prayagraj", "Raebareli", "Rampur", "Saharanpur", "Sambhal", "Sant Kabir Nagar", "Shahjahanpur", "Shamli", "Shravasti", "Siddharthnagar", "Sitapur", "Sonbhadra", "Sultanpur", "Unnao", "Varanasi"],
+        "Uttarakhand": ["Almora", "Bageshwar", "Chamoli", "Champawat", "Dehradun", "Haridwar", "Nainital", "Pauri Garhwal", "Pithoragarh", "Rudraprayag", "Tehri Garhwal", "Udham Singh Nagar", "Uttarkashi"],
+        "West Bengal": ["Alipurduar", "Bankura", "Birbhum", "Cooch Behar", "Dakshin Dinajpur", "Darjeeling", "Hooghly", "Howrah", "Jalpaiguri", "Jhargram", "Kalimpong", "Kolkata", "Malda", "Murshidabad", "Nadia", "North 24 Parganas", "Paschim Bardhaman", "Paschim Medinipur", "Purba Bardhaman", "Purba Medinipur", "Purulia", "South 24 Parganas", "Uttar Dinajpur"]
+    }
+}
